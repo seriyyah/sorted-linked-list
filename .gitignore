@@ -1,0 +1,42 @@
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+/vendor/
+/coverage/
+*.log
+
+# Environment
+/.env.local
+/.env.local.php
+/.env.*.local
+
+# Symfony
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+
+# Testing
+.phpunit.result.cache
+
+# Docker
+.docker/
+
+###> phpstan/phpstan ###
+phpstan.neon
+###< phpstan/phpstan ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+###> squizlabs/php_codesniffer ###
+/.phpcs-cache
+/phpcs.xml
+###< squizlabs/php_codesniffer ###

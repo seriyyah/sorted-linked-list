@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sorted-linked-list
+    volumes:
+      - .:/app
+    environment:
+      - APP_ENV=dev
+    command: /bin/bash
+    stdin_open: true
+    tty: true

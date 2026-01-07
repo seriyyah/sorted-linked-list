@@ -14,6 +14,8 @@
 
 # Environment
 .env
+.env.dev
+.env.test
 /.env.local
 /.env.local.php
 /.env.*.local
